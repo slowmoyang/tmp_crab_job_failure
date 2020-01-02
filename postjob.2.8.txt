@@ -1,0 +1,553 @@
+Wed, 01 Jan 2020 11:43:23 CET(+0000):INFO:PostJob ======== Starting execution on vocms0144.cern.ch. Task Worker Version 3.3.2001.rc1
+Wed, 01 Jan 2020 11:43:23 CET(+0000):DEBUG:PostJob Creating symbolic link in task web directory to post-job log file: /home/grid/cms060/191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500/postjob.2.8.txt -> postjob.2.8.txt
+Wed, 01 Jan 2020 11:43:23 CET(+0000):DEBUG:PostJob Copying job stdout from job_out.2 to /home/grid/cms060/191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500/job_out.2.8.txt.
+Wed, 01 Jan 2020 11:43:23 CET(+0000):DEBUG:PostJob Copying job report from jobReport.json.2 to job_fjr.2.8.json.
+Wed, 01 Jan 2020 11:43:23 CET(+0000):DEBUG:PostJob Creating symbolic link in task web directory to job report file: /home/grid/cms060/191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500/job_fjr.2.8.json -> job_fjr.2.8.json
+Wed, 01 Jan 2020 11:43:23 CET(+0000):INFO:PostJob This is job retry number 8. The maximum allowed number of retries is 8.
+Wed, 01 Jan 2020 11:43:23 CET(+0000):DEBUG:PostJob This post-job corresponds to job with Condor ID 48847813.
+Wed, 01 Jan 2020 11:43:23 CET(+0000):INFO:PostJob PER_JOB_HISTORY file /data/srv/glidecondor/condor_local/job_history/history.48847813.0 not found , look in ./finished_jobs
+Wed, 01 Jan 2020 11:43:23 CET(+0000):INFO:PostJob History file not found in ./finished_jobs. Create it by querying schedd
+Wed, 01 Jan 2020 11:43:23 CET(+0000):INFO:PostJob Executing condor_q -l 48847813.0 > ./finished_jobs/job.2.8
+Wed, 01 Jan 2020 11:43:25 CET(+0000):INFO:PostJob History file ./finished_jobs/job.2.8 created
+Wed, 01 Jan 2020 11:43:25 CET(+0000):INFO:PostJob ====== Starting to parse job ad file ./finished_jobs/job.2.8.
+Wed, 01 Jan 2020 11:43:25 CET(+0000):INFO:PostJob        -----> Attempt # 0 of 1 -----
+Wed, 01 Jan 2020 11:43:25 CET(+0000):INFO:PostJob        -----> Succeeded to parse job ad file -----
+Wed, 01 Jan 2020 11:43:25 CET(+0000):INFO:PostJob ====== Finished to parse job ad.
+Wed, 01 Jan 2020 11:43:25 CET(+0000):INFO:PostJob ====== Starting to analyze job exit status.
+Wed, 01 Jan 2020 11:43:25 CET(+0000):INFO:PostJob        -----> RetryJob log start -----
+Wed, 01 Jan 2020 11:43:25 CET(+0000):DEBUG:RetryJob Job ads already present. Will not use condor_q, but will load previous jobs ads.
+Wed, 01 Jan 2020 11:43:25 CET(+0000):WARNING:RetryJob Unable to parse classads from file ./finished_jobs/job.2.0. Continuing.
+Wed, 01 Jan 2020 11:43:25 CET(+0000):WARNING:RetryJob Unable to parse classads from file ./finished_jobs/job.2.1. Continuing.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):WARNING:RetryJob Unable to parse classads from file ./finished_jobs/job.2.2. Continuing.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):WARNING:RetryJob Unable to parse classads from file ./finished_jobs/job.2.3. Continuing.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):WARNING:RetryJob Unable to parse classads from file ./finished_jobs/job.2.4. Continuing.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):WARNING:RetryJob Unable to parse classads from file ./finished_jobs/job.2.5. Continuing.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):WARNING:RetryJob Unable to parse classads from file ./finished_jobs/job.2.6. Continuing.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):WARNING:RetryJob Unable to parse classads from file ./finished_jobs/job.2.7. Continuing.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:RetryJob Job and stageout wrappers finished successfully (exit code 0).
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob        <----- RetryJob log finish ----
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ====== Finished to analyze job exit status.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ====== Starting to parse job report file jobReport.json.2.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):DEBUG:PostJob Output file info for gen.root: {u'runs': {u'1': {u'1967': 205, u'5637': 180, u'5648': 205, u'5607': 199, u'1923': 190, u'1924': 209, u'5603': 198, u'1927': 180, u'1928': 191, u'5643': 212, u'5609': 211, u'5608': 188, u'5647': 197, u'5646': 203, u'1948': 199, u'1968': 210, u'1969': 214, u'5628': 198, u'5627': 192, u'5645': 199, u'4740': 225, u'1946': 200, u'1947': 197, u'1945': 184, u'13366': 195, u'1955': 198, u'1957': 194, u'1956': 207, u'1958': 196, u'5329': 222, u'5638': 197, u'5604': 188, u'5644': 195, u'5610': 184, u'5611': 187, u'5631': 178, u'5632': 203, u'1970': 203, u'5612': 210, u'5330': 181, u'2104': 214}}, u'lfn': u'', u'ouput_module_class': u'PoolOutputModule', u'branch_hash': u'700d614eba76387eaaa873c82e792299', u'inputpfns': [u'root://cms-t2-wn1055.sdfarm.kr:1096///pnfs/sdfarm.kr/data/cms/store/mc/RunIISummer16DR80Premix/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/AODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/08BF67FE-D2C1-E611-B9AB-B083FED13C9E.root'], u'temp_storage_site': u'T2_KR_KISTI', u'pset_hash': u'abca9f8e3a818e7df6da23a558781000', u'pfn': u'gen.root', u'catalog': u'', u'module_label': u'RAWSIMoutput', u'local_stageout': True, u'checksums': {u'adler32': u'da464def', u'cksum': u'3738620330'}, u'guid': u'D9A403E8-BA85-AA4F-8888-DDC46684919C', u'input': [u'/store/mc/RunIISummer16DR80Premix/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/AODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/08BF67FE-D2C1-E611-B9AB-B083FED13C9E.root'], u'storage_site': u'T3_KR_KISTI', u'events': 8138, u'size': 453511453}
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ====== Finished to parse job report.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ====== Starting saving data for automatic splitting.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ====== Finished saving data for automatic splitting.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ====== Starting upload of logs archive file metadata.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):DEBUG:PostJob Uploading file metadata for cmsRun_2.log.tar.gz to https://cmsweb.cern.ch/crabserver/prod/filemetadata: {'outlfn': '/store/user/seyang/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/log/cmsRun_2.log.tar.gz', 'outdatasetname': '/FakeDataset/fakefile-FakePublish-5b6a581e4ddd41b130711a045d5fecb9/USER', 'checksumadler32': '6d1096fe', 'outsize': 84640, 'checksumcksum': '3701783610', 'outlocation': 'T3_KR_KISTI', 'jobid': '2', 'outtmplfn': '/store/temp/user/seyang.e5224826b167307f68dd5476ca34e22780410b2f/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/log/cmsRun_2.log.tar.gz', 'appver': 'CMSSW_10_5_0_pre1', 'outtype': 'LOG', 'checksummd5': 'asda', 'publishdataname': 'CRAB3_GEN_QCD_bEnriched_HT300to500-00000000000000000000000000000000', 'taskname': '191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500', 'acquisitionera': 'null', 'outtmplocation': u'T2_KR_KISTI', 'events': 0, 'directstageout': 0}
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ====== Finished upload of logs archive file metadata.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob Preparing to transfer the logs archive file and 1 output files.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ====== Starting to check for ASO transfers.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob Will use ASO server at https://cmsweb.cern.ch/crabserver/prod.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ====== Starting to check uploads to ASO database.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):WARNING:PostJob Unable to determine ASO start time from job report. Will use ASO start time = 2020-01-01 11:43:26.197873 (1577875406).
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob Working on file cmsRun_2.log.tar.gz
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob LFN /store/temp/user/seyang.e5224826b167307f68dd5476ca34e22780410b2f/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/log/cmsRun_2.log.tar.gz (id b5b4b26d89501696b21cb41ff7d303cb1827605605d68120f38c8cf8) is already in ASO database (file transfer status is 'failed'), but does not correspond to the current job retry. Will inject a new transfer request.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):DEBUG:PostJob Previous document: {u'aso_worker': u'asoless',
+ u'destination': u'T3_KR_KISTI',
+ u'destination_lfn': u'/store/user/seyang/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/log/cmsRun_2.log.tar.gz',
+ u'end_time': None,
+ u'filesize': 83971,
+ u'fts_id': u'0bb5345a-2c70-11ea-affb-02163e018998',
+ u'fts_instance': u'https://fts3.cern.ch:8446/',
+ u'id': u'b5b4b26d89501696b21cb41ff7d303cb1827605605d68120f38c8cf8',
+ 'job_id': u'b5b4b26d89501696b21cb41ff7d303cb1827605605d68120f38c8cf8',
+ u'job_retry_count': 7,
+ u'jobid': u'2',
+ u'last_update': 1577873087,
+ u'publication_failure_reason': None,
+ u'publication_max_retry_count': 2,
+ u'publication_retry_count': 0,
+ u'publication_state': 'not_required',
+ u'publish': 0,
+ u'rest_host': u'cmsweb.cern.ch',
+ u'rest_uri': u'/crabserver/prod',
+ u'source': u'T2_KR_KISTI',
+ u'source_lfn': u'/store/temp/user/seyang.e5224826b167307f68dd5476ca34e22780410b2f/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/log/cmsRun_2.log.tar.gz',
+ u'start_time': 1577866764,
+ u'taskname': u'191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500',
+ u'transfer_failure_reason': u' TRANSFER 2 TRANSFER  globus_ftp_client: the server responded with an error 500 500-Command failed. : System error in open: No such file or directory  500-A system call failed: No such file or directory  500 End.   ',
+ u'transfer_max_retry_count': 2,
+ u'transfer_retry_count': 0,
+ u'transfer_state': 'failed',
+ u'type': u'log',
+ u'username': u'seyang'}
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ASO job description: {u'aso_worker': u'asoless',
+ 'checksums': {'adler32': 'abc'},
+ u'destination': 'T3_KR_KISTI',
+ u'destination_lfn': u'/store/user/seyang/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/log/cmsRun_2.log.tar.gz',
+ u'end_time': '',
+ 'failure_reason': [],
+ u'filesize': 83971,
+ u'fts_id': u'0bb5345a-2c70-11ea-affb-02163e018998',
+ u'fts_instance': u'https://fts3.cern.ch:8446/',
+ u'id': u'b5b4b26d89501696b21cb41ff7d303cb1827605605d68120f38c8cf8',
+ 'job_end_time': '2020-01-01 11:43:26',
+ 'job_id': u'b5b4b26d89501696b21cb41ff7d303cb1827605605d68120f38c8cf8',
+ u'job_retry_count': 8,
+ u'jobid': u'2',
+ u'last_update': 1577875406,
+ u'publication_failure_reason': None,
+ u'publication_max_retry_count': 2,
+ u'publication_retry_count': 0,
+ u'publication_state': 'not_required',
+ u'publish': 0,
+ u'rest_host': u'cmsweb.cern.ch',
+ u'rest_uri': u'/crabserver/prod',
+ 'retry_count': [],
+ 'size': 84640,
+ u'source': u'T2_KR_KISTI',
+ u'source_lfn': u'/store/temp/user/seyang.e5224826b167307f68dd5476ca34e22780410b2f/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/log/cmsRun_2.log.tar.gz',
+ u'start_time': '2020-01-01 11:43:26.197873',
+ 'state': 'new',
+ u'taskname': u'191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500',
+ u'transfer_failure_reason': u' TRANSFER 2 TRANSFER  globus_ftp_client: the server responded with an error 500 500-Command failed. : System error in open: No such file or directory  500-A system call failed: No such file or directory  500 End.   ',
+ u'transfer_max_retry_count': 2,
+ u'transfer_retry_count': 0,
+ u'transfer_state': 'failed',
+ u'type': u'log',
+ u'username': u'seyang'}
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob Working on file gen_2.root
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob LFN /store/temp/user/seyang.e5224826b167307f68dd5476ca34e22780410b2f/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/gen_2.root (id d403054cb8ea6dccc4bcf4696f7bbc1aadf78c8a7b5b17f4f08617bc) is already in ASO database (file transfer status is 'failed'), but does not correspond to the current job retry. Will inject a new transfer request.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):DEBUG:PostJob Previous document: {u'aso_worker': u'asoless',
+ u'destination': u'T3_KR_KISTI',
+ u'destination_lfn': u'/store/user/seyang/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/gen_2.root',
+ u'end_time': None,
+ u'filesize': 453511453,
+ u'fts_id': u'0bb5345a-2c70-11ea-affb-02163e018998',
+ u'fts_instance': u'https://fts3.cern.ch:8446/',
+ u'id': u'd403054cb8ea6dccc4bcf4696f7bbc1aadf78c8a7b5b17f4f08617bc',
+ 'job_id': u'd403054cb8ea6dccc4bcf4696f7bbc1aadf78c8a7b5b17f4f08617bc',
+ u'job_retry_count': 7,
+ u'jobid': u'2',
+ u'last_update': 1577873087,
+ u'publication_failure_reason': None,
+ u'publication_max_retry_count': 2,
+ u'publication_retry_count': 0,
+ u'publication_state': 'not_required',
+ u'publish': 0,
+ u'rest_host': u'cmsweb.cern.ch',
+ u'rest_uri': u'/crabserver/prod',
+ u'source': u'T2_KR_KISTI',
+ u'source_lfn': u'/store/temp/user/seyang.e5224826b167307f68dd5476ca34e22780410b2f/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/gen_2.root',
+ u'start_time': 1577866764,
+ u'taskname': u'191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500',
+ u'transfer_failure_reason': u' TRANSFER 2 TRANSFER  globus_ftp_client: the server responded with an error 500 500-Command failed. : System error in open: No such file or directory  500-A system call failed: No such file or directory  500 End.   ',
+ u'transfer_max_retry_count': 2,
+ u'transfer_retry_count': 0,
+ u'transfer_state': 'failed',
+ u'type': u'output',
+ u'username': u'seyang'}
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ASO job description: {u'aso_worker': u'asoless',
+ 'checksums': {u'adler32': u'da464def', u'cksum': u'3738620330'},
+ u'destination': 'T3_KR_KISTI',
+ u'destination_lfn': u'/store/user/seyang/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/gen_2.root',
+ u'end_time': '',
+ 'failure_reason': [],
+ u'filesize': 453511453,
+ u'fts_id': u'0bb5345a-2c70-11ea-affb-02163e018998',
+ u'fts_instance': u'https://fts3.cern.ch:8446/',
+ u'id': u'd403054cb8ea6dccc4bcf4696f7bbc1aadf78c8a7b5b17f4f08617bc',
+ 'job_end_time': '2020-01-01 11:43:26',
+ 'job_id': u'd403054cb8ea6dccc4bcf4696f7bbc1aadf78c8a7b5b17f4f08617bc',
+ u'job_retry_count': 8,
+ u'jobid': u'2',
+ u'last_update': 1577875406,
+ u'publication_failure_reason': None,
+ u'publication_max_retry_count': 2,
+ u'publication_retry_count': 0,
+ u'publication_state': 'not_required',
+ u'publish': 0,
+ u'rest_host': u'cmsweb.cern.ch',
+ u'rest_uri': u'/crabserver/prod',
+ 'retry_count': [],
+ 'size': 453511453,
+ u'source': u'T2_KR_KISTI',
+ u'source_lfn': u'/store/temp/user/seyang.e5224826b167307f68dd5476ca34e22780410b2f/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/gen_2.root',
+ u'start_time': '2020-01-01 11:43:26.197873',
+ 'state': 'new',
+ u'taskname': u'191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500',
+ u'transfer_failure_reason': u' TRANSFER 2 TRANSFER  globus_ftp_client: the server responded with an error 500 500-Command failed. : System error in open: No such file or directory  500-A system call failed: No such file or directory  500 End.   ',
+ u'transfer_max_retry_count': 2,
+ u'transfer_retry_count': 0,
+ u'transfer_state': 'failed',
+ u'type': u'output',
+ u'username': u'seyang'}
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ====== Finished to check uploads to ASO database.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob Deferring the execution of the post-job.
+Wed, 01 Jan 2020 11:43:26 CET(+0000):INFO:PostJob ********************************************************************************
+======== Finished post-job execution with status code 4  : DEFERRING. PostJob will run again after 30 min
+Ended TaskManagerBootstrap with code 4
+Wed, 01 Jan 2020 12:13:30 CET(+0000):INFO:PostJob 
+======== Starting execution again after deferral
+Wed, 01 Jan 2020 12:13:30 CET(+0000):DEBUG:PostJob (Parsed job ad.)
+Wed, 01 Jan 2020 12:13:30 CET(+0000):INFO:PostJob Using the cache since it is up to date (last_query=1577876712.56) and it is after we submitted the transfer (aso_start_timestamp=1577875406)
+Wed, 01 Jan 2020 12:13:30 CET(+0000):DEBUG:PostJob Using cached ASO results.
+Wed, 01 Jan 2020 12:13:30 CET(+0000):INFO:PostJob Got statuses: submitted, submitted; 0.5 hours since transfer submit.
+Wed, 01 Jan 2020 12:13:30 CET(+0000):INFO:PostJob Deferring the execution of the post-job.
+Wed, 01 Jan 2020 12:13:30 CET(+0000):INFO:PostJob ********************************************************************************
+======== Finished post-job execution with status code 4  : DEFERRING. PostJob will run again after 30 min
+Ended TaskManagerBootstrap with code 4
+Wed, 01 Jan 2020 12:43:34 CET(+0000):INFO:PostJob 
+======== Starting execution again after deferral
+Wed, 01 Jan 2020 12:43:34 CET(+0000):DEBUG:PostJob (Parsed job ad.)
+Wed, 01 Jan 2020 12:43:34 CET(+0000):INFO:PostJob Using the cache since it is up to date (last_query=1577878854.32) and it is after we submitted the transfer (aso_start_timestamp=1577875406)
+Wed, 01 Jan 2020 12:43:34 CET(+0000):DEBUG:PostJob Using cached ASO results.
+Wed, 01 Jan 2020 12:43:34 CET(+0000):INFO:PostJob Got statuses: failed, failed; 1.0 hours since transfer submit.
+Wed, 01 Jan 2020 12:43:34 CET(+0000):ERROR:PostJob Stageout job (internal ID b5b4b26d89501696b21cb41ff7d303cb1827605605d68120f38c8cf8) failed with status 'failed'.
+-----> ASO log start -----
+ TRANSFER 2 TRANSFER  globus_ftp_client: the server responded with an error 500 500-Command failed. : System error in open: No such file or directory  500-A system call failed: No such file or directory  500 End.    [...CUT...] Full log at https://fts3.cern.ch:8449/fts3/ftsmon/#/job/c61097c8-2c83-11ea-948a-02163e018f23
+<----- ASO log finish ----
+Wed, 01 Jan 2020 12:43:35 CET(+0000):ERROR:PostJob Stageout job (internal ID d403054cb8ea6dccc4bcf4696f7bbc1aadf78c8a7b5b17f4f08617bc) failed with status 'failed'.
+-----> ASO log start -----
+ TRANSFER 2 TRANSFER  globus_ftp_client: the server responded with an error 500 500-Command failed. : System error in open: No such file or directory  500-A system call failed: No such file or directory  500 End.    [...CUT...] Full log at https://fts3.cern.ch:8449/fts3/ftsmon/#/job/c61097c8-2c83-11ea-948a-02163e018f23
+<----- ASO log finish ----
+Wed, 01 Jan 2020 12:43:35 CET(+0000):INFO:PostJob All transfers finished.
+Wed, 01 Jan 2020 12:43:35 CET(+0000):INFO:PostJob There were 2 failed/killed transfers: b5b4b26d89501696b21cb41ff7d303cb1827605605d68120f38c8cf8, d403054cb8ea6dccc4bcf4696f7bbc1aadf78c8a7b5b17f4f08617bc
+Wed, 01 Jan 2020 12:43:35 CET(+0000):INFO:PostJob ====== Finished to monitor ASO transfers.
+Wed, 01 Jan 2020 12:43:35 CET(+0000):ERROR:PostJob Got recoverable stageout exception:
+Stageout failed with code 1.
+There were 2 failed/killed stageout jobs.
+Failure reasons (per document) follow:
+- d403054cb8ea6dccc4bcf4696f7bbc1aadf78c8a7b5b17f4f08617bc:
+  -----> ASO log start -----
+   TRANSFER 2 TRANSFER  globus_ftp_client: the server responded with an error 500 500-Command failed. : System error in open: No such file or directory  500-A system call failed: No such file or directory  500 End.    [...CUT...] Full log at https://fts3.cern.ch:8449/fts3/ftsmon/#/job/c61097c8-2c83-11ea-948a-02163e018f23
+  <----- ASO log finish ----
+- b5b4b26d89501696b21cb41ff7d303cb1827605605d68120f38c8cf8:
+  -----> ASO log start -----
+   TRANSFER 2 TRANSFER  globus_ftp_client: the server responded with an error 500 500-Command failed. : System error in open: No such file or directory  500-A system call failed: No such file or directory  500 End.    [...CUT...] Full log at https://fts3.cern.ch:8449/fts3/ftsmon/#/job/c61097c8-2c83-11ea-948a-02163e018f23
+  <----- ASO log finish ----
+Wed, 01 Jan 2020 12:43:35 CET(+0000):ERROR:PostJob These are all recoverable stageout errors; automatic resubmit is possible.
+Wed, 01 Jan 2020 12:43:35 CET(+0000):INFO:PostJob ====== Finished to check for ASO transfers.
+Wed, 01 Jan 2020 12:43:35 CET(+0000):INFO:PostJob Job could be retried, but the maximum allowed number of retries was hit. Setting this node (job) to permanent failure. DAGMan will NOT retry.
+Wed, 01 Jan 2020 12:43:35 CET(+0000):INFO:PostJob ====== Starting to prepare/send report to dashboard.
+Wed, 01 Jan 2020 12:43:35 CET(+0000):DEBUG:PostJob Dashboard exit code is defined by Postjob execution.
+Wed, 01 Jan 2020 12:43:36 CET(+0000):INFO:PostJob Setting Dashboard state to Aborted. Dashboard parameters: {'MonitorID': '191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500', 'MonitorJobID': '2_https://glidein.cern.ch/2/191230:061257:seyang:crab:GEN:QCD:bEnriched:HT300to500_8', 'StatusValue': 'Aborted', 'JobExitCode': 60324}
+Wed Jan  1 12:43:36 2020: ApMon[ERROR]: Error resolving cms-jobmon.cern.ch: [Errno -2] Name or service not known
+Wed, 01 Jan 2020 12:43:36 CET(+0000):INFO:PostJob ====== Finished to prepare/send report to dashboard.
+Wed, 01 Jan 2020 12:43:36 CET(+0000):INFO:PostJob ====== Starting to update job ClassAd.
+Wed, 01 Jan 2020 12:43:36 CET(+0000):DEBUG:PostJob Dashboard exit code is defined by Postjob execution.
+Wed, 01 Jan 2020 12:43:36 CET(+0000):INFO:PostJob status: FAILED. ClassAd attributes to set are: {'CRAB_PostJobStatus': '"FAILED"', 'JobExitCode': 60324}
+Wed, 01 Jan 2020 12:43:36 CET(+0000):INFO:PostJob        -----> Started attempt 1 out of 5 -----
+Wed, 01 Jan 2020 12:43:36 CET(+0000):INFO:PostJob        -----> Finished attempt 1 out of 5 -----
+Wed, 01 Jan 2020 12:43:36 CET(+0000):INFO:PostJob ====== Finished to update job ClassAd.
+Wed, 01 Jan 2020 12:43:37 CET(+0000):INFO:PostJob ====== Starting to prepare error report.
+Wed, 01 Jan 2020 12:43:37 CET(+0000):DEBUG:PostJob Acquiring lock on error summary file.
+Wed, 01 Jan 2020 12:43:37 CET(+0000):DEBUG:PostJob Acquired lock on error summary file.
+Wed, 01 Jan 2020 12:43:37 CET(+0000):INFO:PostJob Updating error summary for jobid 2 retry 8 with following information:
+'exit code' = 90000 ('Post-processing failed')
+'exit message' = Got recoverable stageout exception:
+Stageout failed with code 1.
+There were 2 failed/killed stageout jobs.
+Failure reasons (per document) follow:
+- d403054cb8ea6dccc4bcf4696f7bbc1aadf78c8a7b5b17f4f08617bc:
+  -----> ASO log start -----
+   TRANSFER 2 TRANSFER  globus_ftp_client: the server responded with an error 500 500-Command failed. : System error in open: No such file or directory  500-A system call failed: No such file or directory  500 End.    [...CUT...] Full log at https://fts3.cern.ch:8449/fts3/ftsmon/#/job/c61097c8-2c83-11ea-948a-02163e018f23
+  <----- ASO log finish ----
+- b5b4b26d89501696b21cb41ff7d303cb1827605605d68120f38c8cf8:
+  -----> ASO log start -----
+   TRANSFER 2 TRANSFER  globus_ftp_client: the server responded with an error 500 500-Command failed. : System error in open: No such file or directory  500-A system call failed: No such file or directory  500 End.    [...CUT...] Full log at https://fts3.cern.ch:8449/fts3/ftsmon/#/job/c61097c8-2c83-11ea-948a-02163e018f23
+  <----- ASO log finish ----
+Wed, 01 Jan 2020 12:43:37 CET(+0000):DEBUG:PostJob Writing error summary file
+Wed, 01 Jan 2020 12:43:37 CET(+0000):DEBUG:PostJob Written error summary file
+Wed, 01 Jan 2020 12:43:37 CET(+0000):INFO:PostJob ====== Finished to prepare error report.
+Wed, 01 Jan 2020 12:43:37 CET(+0000):INFO:PostJob ====== Starting to prepare WMArchive report.
+Wed, 01 Jan 2020 12:43:37 CET(+0000):ERROR:PostJob Can not load the WM archive json. Exception follows:
+Traceback (most recent call last):
+  File "TaskWorker/Actions/PostJob.py", line 2924, in processWMArchive
+    with open("/etc/wmarchive.json") as wma:
+IOError: [Errno 2] No such file or directory: '/etc/wmarchive.json'
+Wed, 01 Jan 2020 12:43:37 CET(+0000):INFO:PostJob ====== Finished to prepare WMArchive report.
+Wed, 01 Jan 2020 12:43:37 CET(+0000):INFO:PostJob Will not write postjob_env.txt file. Continue.
+Wed, 01 Jan 2020 12:43:37 CET(+0000):DEBUG:PostJob ------ Job classad values for debug purposes:
+Wed, 01 Jan 2020 12:43:37 CET(+0000):DEBUG:PostJob ----------------------------------------------------------------------------------------------------
+                    AccountingGroup    analysis.seyang
+                          AcctGroup    analysis
+                      AcctGroupUser    seyang
+                          Arguments    -a sandbox.tar.gz --sourceURL=https://cmsweb.cern.ch/crabcache --jobNumber=2 --cmsswVersion=CMSSW_10_5_0_pre1 --scramArch=slc7_amd64_gcc700 --inputFile=job_input_file_list_2.txt --runAndLumis=job_lumis_2.json --lheInputFiles=False --firstEvent=None --firstLumi=None --lastEvent=None --firstRun=None --seeding=AutomaticSeeding --scriptExe=None --eventsPerLumi=None --maxRuntime=-60 --scriptArgs=[] -o {}
+                    BlockReadKbytes    0
+                         BlockReads    0
+                   BlockWriteKbytes    0
+                        BlockWrites    0
+                    BufferBlockSize    32768
+                         BufferSize    524288
+                ChirpCMSSWCPUModels    Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+                  ChirpCMSSWElapsed    0
+                   ChirpCMSSWEvents    0
+                    ChirpCMSSWFiles    0
+               ChirpCMSSWLastUpdate    1577875098
+                    ChirpCMSSWLumis    0
+                ChirpCMSSWMaxEvents    -1
+                 ChirpCMSSWMaxFiles    -1
+                 ChirpCMSSWMaxLumis    -1
+                ChirpCMSSWReadBytes    0
+                  ChirpCMSSWReadOps    0
+             ChirpCMSSWReadSegments    0
+            ChirpCMSSWReadTimeMsecs    0
+                 ChirpCMSSWReadVOps    0
+                     ChirpCMSSWRuns    0
+               ChirpCMSSWWriteBytes    0
+           ChirpCMSSWWriteTimeMsecs    0
+          ChirpCMSSW_cmsRun_Elapsed    256
+           ChirpCMSSW_cmsRun_Events    8138
+            ChirpCMSSW_cmsRun_Files    1
+ChirpCMSSW_cmsRun_IOSite_2001_ReadBytes    987942898
+ChirpCMSSW_cmsRun_IOSite_2001_ReadTimeMS    14164
+       ChirpCMSSW_cmsRun_LastUpdate    1577875371
+            ChirpCMSSW_cmsRun_Lumis    41
+         ChirpCMSSW_cmsRun_MaxFiles    1
+        ChirpCMSSW_cmsRun_ReadBytes    987942898
+          ChirpCMSSW_cmsRun_ReadOps    12704
+     ChirpCMSSW_cmsRun_ReadSegments    4159
+    ChirpCMSSW_cmsRun_ReadTimeMsecs    14759
+         ChirpCMSSW_cmsRun_ReadVOps    59
+             ChirpCMSSW_cmsRun_Runs    1
+       ChirpCMSSW_cmsRun_WriteBytes    453511539
+   ChirpCMSSW_cmsRun_WriteTimeMsecs    1233
+           Chirp_CRAB3_Job_ExitCode    0
+       Chirp_WMCore_cmsRun_ExitCode    0
+                          ClusterId    48847813
+                                Cmd    /data/srv/glidecondor/condor_local/spool/8800/0/cluster48728800.proc0.subproc0/gWMS-CMSRunAnalysis.sh
+                          CMSGroups    /cms
+                 CMS_ALLOW_OVERFLOW    True
+                        CMS_JobType    Analysis
+                 CMS_SubmissionTool    CRAB
+                       CMS_TaskType    cmsRun
+                           CMS_Type    Analysis
+                         CMS_WMTool    USER
+            CommittedSuspensionTime    0
+                      CommittedTime    339
+                     CompletionDate    1577875401
+                     CondorPlatform    $CondorPlatform: x86_64_RedHat7 $
+                      CondorVersion    $CondorVersion: 8.8.6 Nov 13 2019 BuildID: 489199 PackageID: 8.8.6-1 $
+                           CoreSize    -1
+                    CpusProvisioned    1
+                      CRAB_AlgoArgs    {\splitOnRun\: false, \halt_job_on_file_boundaries\: false, \files_per_job\: {\halt_job_on_file_boundaries\: false, \files_per_job\: 1, \algorithm\: \FileBased\, \applyLumiCorrection\: true, \runs\: [], \lumis\: [], \splitOnRun\: false, \total_files\: 0}}
+                         CRAB_ASODB    filetransfers
+                    CRAB_ASOTimeout    86400
+                        CRAB_ASOURL    https://cmsweb.cern.ch/crabserver/prod
+                     CRAB_AsyncDest    T3_KR_KISTI
+                     CRAB_DataBlock    /QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/AODSIM#b49e75de-c59b-11e6-9c6d-001e67abf518
+                        CRAB_DBSURL    https://cmsweb.cern.ch/dbs/prod/global/DBSReader
+                   CRAB_Destination    gsiftp://cms-se.sdfarm.kr//xrootd/store/user/seyang/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/log/cmsRun_2.log.tar.gz, gsiftp://cms-se.sdfarm.kr//xrootd/store/user/seyang/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257/0000/gen_2.root
+                            CRAB_Id    2
+                           CRAB_ISB    https://cmsweb.cern.ch/crabcache
+                       CRAB_JobArch    slc7_amd64_gcc700
+                      CRAB_JobCount    339
+                     CRAB_JobLogURL    https://cmsweb.cern.ch/scheddmon/0144/cms060/191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500/job_out.2.8.txt
+                         CRAB_JobSW    CMSSW_10_5_0_pre1
+              CRAB_localOutputFiles    gen.root=gen_2.root
+            CRAB_NumAutomJobRetries    2
+                  CRAB_oneEventMode    0
+                     CRAB_OutLFNDir    /store/user/seyang/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257
+                 CRAB_OutTempLFNDir    /store/temp/user/seyang.e5224826b167307f68dd5476ca34e22780410b2f/QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/CRAB3_GEN_QCD_bEnriched_HT300to500/191230_061257
+             CRAB_PostJobLastUpdate    0
+                 CRAB_PostJobLogURL    https://cmsweb.cern.ch/scheddmon/0144/cms060/191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500/postjob.2.8.txt
+                 CRAB_PostJobStatus    NOT RUN
+                CRAB_PrimaryDataset    QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8
+                       CRAB_Publish    0
+                 CRAB_PublishDBSURL    https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter
+              CRAB_PublishGroupName    0
+                   CRAB_PublishName    CRAB3_GEN_QCD_bEnriched_HT300to500-00000000000000000000000000000000
+                       CRAB_ReqName    191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500
+                      CRAB_RestHost    cmsweb.cern.ch
+                  CRAB_RestURInoAPI    /crabserver/prod
+                         CRAB_Retry    8
+            CRAB_RetryOnASOFailures    1
+                  CRAB_SaveLogsFlag    1
+                     CRAB_SplitAlgo    FileBased
+                CRAB_StageoutPolicy    local,remote
+               CRAB_SubmitterIpAddr    2001:320:15:124:d6ae:52ff:fe88:7555
+                   CRAB_TaskEndTime    1580278377
+              CRAB_TaskLifetimeDays    30
+                    CRAB_TaskWorker    crab-prod-tw01
+               CRAB_TransferOutputs    1
+                        CRAB_UserDN    /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=seyang/CN=829640/CN=Seungjin Yang
+                     CRAB_UserGroup    undefined
+                        CRAB_UserHN    seyang
+                      CRAB_UserRole    undefined
+                      CRAB_Workflow    191230_061257:seyang_crab_GEN_QCD_bEnriched_HT300to500
+           CumulativeSuspensionTime    0
+                       CurrentHosts    0
+                        DAGManJobId    48728800
+                     DAGManNodesLog    /data/srv/glidecondor/condor_local/spool/8800/0/cluster48728800.proc0.subproc0/RunJobs.dag.nodes.log
+                    DAGManNodesMask    0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+                        DAGNodeName    Job2
+                 DAGParentNodeNames    
+                      DESIRED_Archs    X86_64
+           DESIRED_CMSDataLocations    T2_KR_KISTI
+                 DESIRED_CMSDataset    /QCD_bEnriched_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/AODSIM
+                      DESIRED_SITES    T2_KR_KISTI
+                    DiskProvisioned    180697
+                          DiskUsage    475000
+                      DiskUsage_RAW    474544
+               EnteredCurrentStatus    1577875401
+                        Environment    SCRAM_ARCH=slc7_amd64_gcc700 CRAB_RUNTIME_TARBALL=local CRAB_TASKMANAGER_TARBALL=local
+                                Err    job_err.2
+              EstimatedWallTimeMins    1250
+                     ExecutableSize    10
+                 ExecutableSize_RAW    10
+                           ExitCode    0
+                         ExitStatus    0
+                        GlobalJobId    crab3@vocms0144.cern.ch#48847813.0#1577874463
+                          ImageSize    2000000
+                      ImageSize_RAW    1864400
+                                 In    /dev/null
+                                Iwd    /data/srv/glidecondor/condor_local/spool/8800/0/cluster48728800.proc0.subproc0
+              JobAdInformationAttrs    MATCH_EXP_JOBGLIDEIN_CMSSite, JOBGLIDEIN_CMSSite, RemoteSysCpu, RemoteUserCpu
+                       JobBatchName    RunJobs.dag+48728800
+                JobCurrentStartDate    1577875062
+       JobCurrentStartExecutingDate    1577875087
+  JobCurrentStartTransferOutputDate    1577875393
+                JobFinishedHookDone    1577875401
+                 JOBGLIDEIN_CMSSite    $$([ifThenElse(GLIDEIN_CMSSite is undefined, \Unknown\, GLIDEIN_CMSSite)])
+                   JobLeaseDuration    2400
+                    JobNotification    0
+                            JobPrio    0
+                        JobRunCount    1
+                       JobStartDate    1577875062
+                          JobStatus    4
+                        JobUniverse    5
+                        JOB_CMSSite    $$(GLIDEIN_CMSSite:Unknown)
+               JOB_GLIDECLIENT_Name    $$(GLIDECLIENT_Name:Unknown)
+              JOB_GLIDEIN_ClusterId    $$(GLIDEIN_ClusterId:Unknown)
+                JOB_GLIDEIN_CMSSite    $$(GLIDEIN_CMSSite:Unknown)
+             JOB_GLIDEIN_Entry_Name    $$(GLIDEIN_Entry_Name:Unknown)
+                JOB_GLIDEIN_Factory    $$(GLIDEIN_Factory:Unknown)
+           JOB_GLIDEIN_Job_Max_Time    $$(GLIDEIN_Job_Max_Time:Unknown)
+              JOB_GLIDEIN_MaxMemMBs    $$(GLIDEIN_MaxMemMBs:Unknown)
+           JOB_GLIDEIN_Max_Walltime    $$(GLIDEIN_Max_Walltime:Unknown)
+                 JOB_GLIDEIN_Memory    $$(Memory:Unknown)
+                   JOB_GLIDEIN_Name    $$(GLIDEIN_Name:Unknown)
+                 JOB_GLIDEIN_ProcId    $$(GLIDEIN_ProcId:Unknown)
+                 JOB_GLIDEIN_Schedd    $$(GLIDEIN_Schedd:Unknown)
+                    JOB_GLIDEIN_SEs    $$(GLIDEIN_SEs:Unknown)
+                   JOB_GLIDEIN_Site    $$(GLIDEIN_Site:Unknown)
+                JOB_GLIDEIN_SiteWMS    $$(GLIDEIN_SiteWMS:Unknown)
+          JOB_GLIDEIN_SiteWMS_JobId    $$(GLIDEIN_SiteWMS_JobId:Unknown)
+          JOB_GLIDEIN_SiteWMS_Queue    $$(GLIDEIN_SiteWMS_Queue:Unknown)
+           JOB_GLIDEIN_SiteWMS_Slot    $$(GLIDEIN_SiteWMS_Slot:Unknown)
+                  JOB_GLIDEIN_ToDie    $$(GLIDEIN_ToDie:Unknown)
+               JOB_GLIDEIN_ToRetire    $$(GLIDEIN_ToRetire:Unknown)
+                           JOB_Site    $$(GLIDEIN_Site:Unknown)
+                LastJobLeaseRenewal    1577875399
+                      LastJobStatus    2
+                      LastMatchTime    1577875062
+                  LastPublicClaimId    <134.75.124.78:43300>#1577873613#18#...
+                     LastRemoteHost    slot1_7@glidein_24779_42022464@cms-t2-wn1028.sdfarm.kr
+                 LastSuspensionTime    0
+                   MachineAttrCpus0    1
+       MachineAttrMJF_JOB_HS06_JOB0    Unknown
+             MachineAttrSlotWeight0    1
+          MachineAttrTotalSlotCpus0    8
+       MATCH_EXP_JOBGLIDEIN_CMSSite    T2_KR_KISTI
+              MATCH_EXP_JOB_CMSSite    T2_KR_KISTI
+     MATCH_EXP_JOB_GLIDECLIENT_Name    CMSG-v1_0.main
+    MATCH_EXP_JOB_GLIDEIN_ClusterId    1956095
+      MATCH_EXP_JOB_GLIDEIN_CMSSite    T2_KR_KISTI
+   MATCH_EXP_JOB_GLIDEIN_Entry_Name    CMSHTPC_T2_KR_KISTI
+      MATCH_EXP_JOB_GLIDEIN_Factory    OSG
+ MATCH_EXP_JOB_GLIDEIN_Job_Max_Time    14400
+    MATCH_EXP_JOB_GLIDEIN_MaxMemMBs    20240
+ MATCH_EXP_JOB_GLIDEIN_Max_Walltime    171000
+       MATCH_EXP_JOB_GLIDEIN_Memory    2000
+         MATCH_EXP_JOB_GLIDEIN_Name    gfactory_instance
+       MATCH_EXP_JOB_GLIDEIN_ProcId    0
+       MATCH_EXP_JOB_GLIDEIN_Schedd    schedd_glideins3@gfactory-2.opensciencegrid.org
+          MATCH_EXP_JOB_GLIDEIN_SEs    cms-t2-se01.sdfarm.kr
+         MATCH_EXP_JOB_GLIDEIN_Site    KISTI
+      MATCH_EXP_JOB_GLIDEIN_SiteWMS    HTCondor
+MATCH_EXP_JOB_GLIDEIN_SiteWMS_JobId    1308843.0
+MATCH_EXP_JOB_GLIDEIN_SiteWMS_Queue    cms-t2-ce01.sdfarm.kr
+ MATCH_EXP_JOB_GLIDEIN_SiteWMS_Slot    slot1_3@cms-t2-wn1028.sdfarm.kr
+        MATCH_EXP_JOB_GLIDEIN_ToDie    1578042922
+     MATCH_EXP_JOB_GLIDEIN_ToRetire    1578028522
+                 MATCH_EXP_JOB_Site    KISTI
+          MATCH_EXP_Used_Gatekeeper    cms-t2-ce01.sdfarm.kr cms-t2-ce01.sdfarm.kr:9619
+             MATCH_GLIDECLIENT_Name    CMSG-v1_0.main
+            MATCH_GLIDEIN_ClusterId    1956095
+              MATCH_GLIDEIN_CMSSite    T2_KR_KISTI
+           MATCH_GLIDEIN_Entry_Name    CMSHTPC_T2_KR_KISTI
+              MATCH_GLIDEIN_Factory    OSG
+           MATCH_GLIDEIN_Gatekeeper    cms-t2-ce01.sdfarm.kr cms-t2-ce01.sdfarm.kr:9619
+         MATCH_GLIDEIN_Job_Max_Time    14400
+            MATCH_GLIDEIN_MaxMemMBs    20240
+         MATCH_GLIDEIN_Max_Walltime    171000
+                 MATCH_GLIDEIN_Name    gfactory_instance
+               MATCH_GLIDEIN_ProcId    0
+               MATCH_GLIDEIN_Schedd    schedd_glideins3@gfactory-2.opensciencegrid.org
+                  MATCH_GLIDEIN_SEs    cms-t2-se01.sdfarm.kr
+                 MATCH_GLIDEIN_Site    KISTI
+              MATCH_GLIDEIN_SiteWMS    HTCondor
+        MATCH_GLIDEIN_SiteWMS_JobId    1308843.0
+        MATCH_GLIDEIN_SiteWMS_Queue    cms-t2-ce01.sdfarm.kr
+         MATCH_GLIDEIN_SiteWMS_Slot    slot1_3@cms-t2-wn1028.sdfarm.kr
+                MATCH_GLIDEIN_ToDie    1578042922
+             MATCH_GLIDEIN_ToRetire    1578028522
+                       MATCH_Memory    2000
+                           MaxHosts    1
+                    MaxWallTimeMins    1250
+                 MaxWallTimeMinsRun    1250
+                MaxWallTimeMins_RAW    1250
+                  MemoryProvisioned    2048
+                           MinHosts    1
+                             MyType    Job
+                           NumCkpts    0
+                       NumCkpts_RAW    0
+                  NumJobCompletions    1
+                      NumJobMatches    1
+                       NumJobStarts    1
+                        NumRestarts    0
+                    NumShadowStarts    1
+                     NumSystemHolds    0
+                       OrigMaxHosts    1
+                                Out    job_out.2
+                              Owner    cms060
+                       PostJobPrio1    -1577686432
+                       PostJobPrio2    8
+                        PreJobPrio1    0
+                             ProcId    0
+              ProportionalSetSizeKb    15000
+          ProportionalSetSizeKb_RAW    14492
+                              QDate    1577874463
+              RecentBlockReadKbytes    0
+                   RecentBlockReads    0
+             RecentBlockWriteKbytes    0
+                  RecentBlockWrites    0
+         RecentStatsLifetimeStarter    296
+                        RequestCpus    1
+                        RequestDisk    100000
+                    RequestDisk_RAW    1
+                      RequestMemory    2000
+                  RequestMemory_RAW    2000
+                        REQUIRED_OS    rhel7
+                    ResidentSetSize    75000
+                ResidentSetSize_RAW    56948
+                            RootDir    /
+                         ServerTime    1577875403
+                ShouldTransferFiles    YES
+                 SpooledOutputFiles    jobReport.json.2,WMArchiveReport.json.2
+                    StartdPrincipal    execute-side@matchsession/134.75.124.78
+               StatsLifetimeStarter    306
+                   SubmitEventNotes    DAG Node: Job2
+                         TargetType    Machine
+                           TaskType    Job
+                   TotalSubmitProcs    1
+                   TotalSuspensions    0
+                      TransferInput    CMSRunAnalysis.sh,cmscp.py,CMSRunAnalysis.tar.gz,sandbox.tar.gz,run_and_lumis.tar.gz,input_files.tar.gz
+                TransferInputSizeMB    2
+                     TransferOutput    jobReport.json.2,WMArchiveReport.json.2
+                    Used_Gatekeeper    $$(GLIDEIN_Gatekeeper:Unknown)
+                               User    cms060@cms
+                            UserLog    /data/srv/glidecondor/condor_local/spool/8800/0/cluster48728800.proc0.subproc0/job_log
+               WhenToTransferOutput    ON_EXIT_OR_EVICT
+                      x509userproxy    /data/srv/glidecondor/condor_local/spool/8800/0/cluster48728800.proc0.subproc0/7419e11525ce4c8fa00193d73bb230c74951b845
+                 x509UserProxyEmail    seungjin.yang@cern.ch
+            x509UserProxyExpiration    1578291203
+             x509UserProxyFirstFQAN    /cms/Role=NULL/Capability=NULL
+                  x509UserProxyFQAN    /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=seyang/CN=829640/CN=Seungjin Yang,/cms/Role=NULL/Capability=NULL
+               x509userproxysubject    /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=seyang/CN=829640/CN=Seungjin Yang
+                x509UserProxyVOName    cms
+Wed, 01 Jan 2020 12:43:37 CET(+0000):DEBUG:PostJob ----------------------------------------------------------------------------------------------------
+Wed, 01 Jan 2020 12:43:37 CET(+0000):INFO:PostJob ********************************************************************************
+======== Finished post-job execution with status code 2  : NON-RECOVERABLE JOB FAIL. No retries
+Ended TaskManagerBootstrap with code 2
